@@ -7,6 +7,10 @@
         padding-bottom: 10px;
     }
 
+    &__logo-link:hover{
+        background-color: $main-white;
+    }
+
     &__logo-image{
         width: 226px;
         height: 63px;
@@ -32,6 +36,10 @@
         line-height: 26px;
         letter-spacing: 0em;
         color: $main-black;
+
+        &:hover{
+            background-color: $main-white;
+        }
         
         &::before{
             content: "";
@@ -104,6 +112,10 @@
         padding: 0;
         background-color: transparent;
         cursor: pointer;
+
+        &:hover{
+            background-color: $main-white;
+        }
     }
 
     &__mobile{

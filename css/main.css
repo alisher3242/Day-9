@@ -607,6 +607,10 @@ body {
   padding-bottom: 10px;
 }
 
+.header__logo-link:hover {
+  background-color: #ffffff;
+}
+
 .header__logo-image {
   width: 226px;
   height: 63px;
@@ -642,6 +646,10 @@ body {
   line-height: 26px;
   letter-spacing: 0em;
   color: #424242;
+}
+
+.header__tel:hover {
+  background-color: #ffffff;
 }
 
 .header__tel::before {
@@ -723,6 +731,10 @@ body {
   padding: 0;
   background-color: transparent;
   cursor: pointer;
+}
+
+.header__hamburger:hover {
+  background-color: #ffffff;
 }
 
 .header__mobile {
