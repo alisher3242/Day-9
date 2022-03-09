@@ -219,6 +219,9 @@
 
             &::before{
                 margin-right: 18px;
+                width: 23px;
+                height: 23px;
+                background-size:cover;
             }
         }
     }
@@ -232,6 +235,11 @@
     .header{
         &__desktop{
             display: none;
+        }
+
+        &__top--container{
+            padding-left: 23px;
+            padding-right: 23px;
         }
 
         &__mobile{
@@ -267,6 +275,9 @@
 
             &::before{
                 margin-right: 9px;
+                width: 14px;
+                height: 14px;
+                background-size:cover;
             }
         }
     }
@@ -280,6 +291,11 @@
     .header{
         &__desktop{
             display: none;
+        }
+
+        &__top--container{
+            padding-left: 11px;
+            padding-right: 11px;
         }
 
         &__mobile{
