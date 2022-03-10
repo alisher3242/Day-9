@@ -529,6 +529,8 @@ body {
   .hero {
     padding-top: 42px;
     padding-bottom: 80px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .hero__top {
     -webkit-box-orient: vertical;
@@ -563,6 +565,8 @@ body {
 @media only screen and (max-width: 320px) {
   .hero {
     padding-bottom: 80px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .hero__top {
     -webkit-box-orient: vertical;
@@ -1745,6 +1749,7 @@ body {
           justify-content: center;
   padding: 54px 50px;
   gap: 120px;
+  overflow: hidden;
 }
 
 .section2 .statistics__item {
