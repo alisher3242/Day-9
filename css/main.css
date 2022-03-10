@@ -485,8 +485,9 @@ body {
     margin-right: 21px;
   }
   .hero__image {
-    width: 471px;
-    height: 433px;
+    max-width: 471px;
+    width: 100%;
+    height: auto;
   }
   .hero__text {
     max-width: 750px;
@@ -512,8 +513,9 @@ body {
     margin-right: 26px;
   }
   .hero__image {
-    width: 311px;
-    height: 294px;
+    max-width: 311px;
+    width: 100%;
+    height: auto;
   }
   .hero__text {
     max-width: 515px;
@@ -548,8 +550,9 @@ body {
     text-align: center;
   }
   .hero__image {
-    width: 480px;
-    height: 222px;
+    max-width: 480px;
+    width: 100%;
+    height: auto;
   }
   .hero__text {
     max-width: 321px;
@@ -584,8 +587,9 @@ body {
     text-align: center;
   }
   .hero__image {
-    width: 320px;
-    height: 183px;
+    max-width: 320px;
+    width: 100%;
+    height: auto;
   }
   .hero__text {
     max-width: 295px;
@@ -1044,7 +1048,7 @@ body {
     height: 45px;
   }
   .header__hamburger {
-    margin-right: 107px;
+    margin-right: 88px;
     text-align: left;
   }
   .header__hamburger--image {
