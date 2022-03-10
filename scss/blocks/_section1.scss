@@ -34,8 +34,9 @@
     }
 
     &__first-image, &__third-image{
-        width: 488px;
-        height: 396px;
+        max-width: 488px;
+        width: 100%;
+        height: auto;
         margin-right: 122px;
     }
 
@@ -89,8 +90,9 @@
     }
 
     &__second-image{
-        width: 488px;
-        height: 396px;
+        max-width: 488px;
+        width: 100%;
+        height: auto;
     }
 
     .auditory{
@@ -145,19 +147,22 @@
         }
 
         &__first-image{
-            width: 389px;
-            height: 265px;
+            max-width: 389px;
+            width: 100%;
+            height: auto;
             margin-right: 81px;
         }
 
         &__second-image{
-            width: 389px;
-            height: 264px;
+            max-width: 389px;
+            width: 100%;
+            height: auto;
         }
 
         &__third-image{
-            width: 388px;
-            height: 268px;
+            max-width: 388px;
+            width: 100%;
+            height: auto;
             margin-right: 81px;
         }
 
@@ -213,19 +218,22 @@
         }
 
         &__first-image{
-            width: 256px;
+            max-width: 256px;
+            width: 100%;
             height: 226px;
             margin-right: 54px;
         }
 
         &__second-image{
-            width: 256px;
-            height: 226px;
+            max-width: 256px;
+            width: 100%;
+            height: auto;
         }
 
         &__third-image{
-            width: 256px;
-            height: 226px;
+            max-width: 256px;
+            width: 100%;
+            height: auto;
             margin-right: 53px;
         }
 
@@ -295,21 +303,24 @@
         }
 
         &__first-image{
-            width: 360px;
-            height: 156px;
+            max-width: 360px;
+            width: 100%;
+            height: auto;
             margin-bottom: 18px;
             margin-right: 0;
         }
 
         &__second-image{
-            width: 360px;
-            height: 156px;
+            max-width: 360px;
+            width: 100%;
+            height: auto;
             margin-bottom: 18px;
         }
 
         &__third-image{
-            width: 360px;
-            height: 156px;
+            max-width: 360px;
+            width: 100%;
+            height: auto;
             margin-bottom: 18px;
             margin-right: 0;
         }
@@ -385,21 +396,23 @@
         }
 
         &__first-image{
-            width: 300px;
-            height: 156px;
+            max-width: 300px;
+            width: 100%;
+            height: auto;
             margin-bottom: 18px;
             margin-right: 0;
         }
 
         &__second-image{
-            width: 300px;
-            height: 156px;
+            max-width: 300px;
+            height: auto;
             margin-bottom: 18px;
         }
 
         &__third-image{
-            width: 300px;
-            height: 156px;
+            max-width: 300px;
+            width: 100%;
+            height: auto;
             margin-bottom: 18px;
             margin-right: 0;
         }
