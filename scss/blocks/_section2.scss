@@ -26,18 +26,29 @@
     }
 
     .statistics{
+        max-width: 1200px;
+        width: 100%;
+        height: auto;
         background-color: $main-white;
         display: flex;
         align-items: center;
-        justify-content: center;
-        padding: 54px 50px;
-        gap: 120px;
-        overflow: hidden;
+        justify-content: space-between;
+        padding: 54px 0;
 
         &__item{
             display: flex;
-            flex-direction: column;
             align-items: center;
+            justify-content: space-around;
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 0;
+
+            &__list{
+                flex-direction: column;
+                max-width: 185px;
+                width: 100%;
+                height: auto;
+            }
 
             &-hedding{
                 margin: 0;
@@ -81,9 +92,15 @@
 
         .statistics{
             max-width: 854px;
-            gap: 69px;
-            padding-left: 27px;
-            padding-right: 27px;
+            height: auto;
+            width: 100%;
+          
+
+            &__list{
+                max-width: 159px;
+                width: 100%;
+                height: auto;
+            }
 
             &__item{
 
@@ -120,11 +137,19 @@
             max-width: 641px;
             width: 100%;
             height: auto;
-            gap: 48px;
-            padding-right: 41px;
-            padding-left: 41px;
+           
+         
+
+            &__list{
+                max-width: 119px;
+                width: 100%;
+                height: auto;
+            }
 
             &__item{
+                max-width: 185px;
+                width: 100%;
+                height: auto;
 
                 &-hedding{
                     font-size: 25px;
@@ -155,12 +180,20 @@
 
         .statistics{
             max-width: 360px;
+            width: 100%;
+            height: auto;
             flex-wrap: wrap;
             padding-top: 30px;
             padding-bottom: 30px;
             justify-content: center;
             gap: 42px;
             margin: 0 auto;
+
+            &__list{
+                max-width: 115px;
+                width: 100%;
+                height: auto;
+            }
 
             &__item{
 
@@ -193,6 +226,8 @@
 
         .statistics{
             max-width: 300px;
+            width: 100%;
+            height: auto;
             flex-direction: column;
             padding-top: 22px;
             padding-bottom: 22px;
@@ -200,6 +235,13 @@
             gap: 27px;
             padding-right: 25px;
             padding-left: 25px;
+        }
+
+            &__list{
+                max-width: 244px;
+                width: 100%;
+                height: auto;
+    }
 
             &__item{
                 flex-direction: row;
@@ -219,4 +261,3 @@
             }
         }
     }
-}
