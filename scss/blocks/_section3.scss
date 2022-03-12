@@ -280,10 +280,6 @@
             gap: 30px;
         }
 
-        &__item--1{
-            max-height: 142px;
-        }
-
         &__item {
             max-width: 642px;
             height: auto;
@@ -484,6 +480,11 @@
     .section3 {
         padding-top: 80px;
         padding-bottom: 80px;
+
+        &__container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
 
         &__hedding {
             font-size: 20px;

@@ -1,6 +1,7 @@
 .doctors{
     padding-bottom: 177px;
 
+
     &__hedding{
         font-family: Montserrat;
         font-size: 35px;
@@ -118,10 +119,18 @@
         padding-bottom: 100px;
 
         &__container{
-            max-width: 643px;
+            max-width: 768px;
+            width: 100%;
+            height: auto;
+            padding-left: 63px;
+            padding-right: 63px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
         }
 
         &__hedding{
+            max-width: 202px;
             font-size: 25px;
             line-height: 28px;
             margin-bottom: 50px;
@@ -223,8 +232,8 @@
         padding-bottom: 80px;
 
         &__container{
-            max-width: 180px;
-            padding: 0;
+            max-width: 320px;
+            padding: 70px;
         }
 
         &__hedding{

@@ -152,8 +152,8 @@
 @media only screen  and (max-width:320px){
     .hero{
         padding-bottom: 80px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 8;
+        padding-right: 8;
 
         &__top{
             flex-direction: column;
